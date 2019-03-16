@@ -21,6 +21,13 @@ function retour(){
 }
 
 
+function changeClass(el){
+	el.children[1].className = "text";
+}
+function initialClass(el){
+	el.children[1].className = "noText";
+}
+
 function shake(el){
 
 	

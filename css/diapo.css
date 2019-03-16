@@ -188,3 +188,53 @@ h3{
 @media screen and (max-width: 600px) { 
     .diapo li div h3 { font-size: 80px }
 }
+
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 361px) {
+    .diapo li div h3 { font-size: 120px }
+
+#titleRealisations{
+    top:300px;
+    left:-70px;
+}
+
+#titlePhotos{
+    top:350px;
+    left:50px;
+}
+
+#titleAudiovisuel{
+    top:350px;
+    left:-60px;
+}
+
+#titleJV{
+    top:350px;
+    left:-50px;
+}
+
+
+.diapo li:nth-child(1) span { 
+    background-image: url(../imagesDiapo/1.jpg) 
+}
+
+.diapo li:nth-child(2) span { 
+    background-image: url(../imagesDiapo/tel2.jpg) 
+}
+
+.diapo li:nth-child(3) span { 
+    background-image: url(../imagesDiapo/3.jpg) 
+}
+
+.diapo li:nth-child(4) span { 
+    background-image: url(../imagesDiapo/4.jpg) 
+}
+
+
+  
+}
+
+
